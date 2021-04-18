@@ -36,9 +36,9 @@ In the **WinSCP Settings** panel ensure the following:
 
 In the **Paths to Synchronise** panel setup any number of local and remote paths to be synchronised, from the RetroPie (Remote) to your PC or attached device (Local).
 
-- **Local** paths are those locations local to your computer (ie. C:\..., D:\..., E:\..., F:\... etc)
+- **Local** paths are those locations local to your computer (ie. C:\\..., D:\\..., E:\\..., F:\\... etc)
 - **Remote** paths are those locations on the RetroPie (ie. /boot/..., /home/..., /opt/...)
-- **File Mask** is an optional mask for specifying which files are synced from the Remote Paths 
+- **File Mask** is an optional mask for specifying which files are (or aren't) synced from the Remote Paths (see WinSCP File Masks)
 - **Include** is a checkbox that is set to indicate the path will be included for synchronisation
 
 When **WinSCP Mirror** is clicked the synchronisation (backup) process begins.  Only those paths with **Include** checked will be synchronised.  Files are only synchronised (mirrored) from the Remote paths to the Local paths.
