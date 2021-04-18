@@ -9,7 +9,7 @@ WinSCP ("C:\Program Files (x86)\WinSCP\WinSCP.exe")
 
 ## Setup
 
-Before use you must have a session already created in WinSCP.  See below as an example.
+Before use you must have a SCP session already created in WinSCP that connects successfully to your RetroPie.  See below as an example.
 
 ![image](https://user-images.githubusercontent.com/28795922/115145385-962bf800-a094-11eb-9069-3af018f91891.png)
 
