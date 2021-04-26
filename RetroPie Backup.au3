@@ -66,7 +66,7 @@ Global $path_5_local_input = GUICtrlCreateInput($local_path & "\home\pi\RetroPie
 Global $path_5_remote_input = GUICtrlCreateInput("/home/pi/RetroPie/roms", 360, $path_5_y, 140)
 Global $path_5_filemask_input = GUICtrlCreateInput("", 540, $path_5_y, 140)
 Global $path_5_include_checkbox = GUICtrlCreateCheckbox("", 700, $path_5_y, 20, 20)
-GUICtrlSetState($path_5_include_checkbox, $GUI_UNCHECKED)
+GUICtrlSetState($path_5_include_checkbox, $GUI_CHECKED)
 Local $path_6_y = $path_5_y + 20
 GUICtrlCreateLabel("Pair #6", 20, $path_6_y, 80)
 Global $path_6_local_input = GUICtrlCreateInput($local_path & "\etc\emulationstation", 70, $path_6_y, 250)
